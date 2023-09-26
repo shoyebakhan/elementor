@@ -1,0 +1,853 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body
+{
+    overflow-x: hidden;
+}
+.first
+{
+    height: 20vh;
+    width: 100%;
+    background-color:  rgb(228, 178, 235);
+    position: fixed;
+    z-index: 2;
+   
+}
+#main
+{
+    background-color: rgb(228, 178, 235);
+    background-image: url(ele-logo.png);
+    background-repeat: no-repeat;
+    background-size: 12%;
+    transform: translate(20px,20px);
+    height:8vh;
+    width: 100%;
+}
+.drp
+{
+    transform: translate(250px,-25px);
+    border: none;
+    background-color: transparent;
+}
+.drp1
+{
+    transform: translate(408px,-50px);
+    border: none;
+    background-color: transparent;
+}.drp2
+{
+    transform: translate(545px,-75px);
+    border: none;
+    background-color: transparent;
+}.drp3
+{
+    transform: translate(670px,-100px);
+    border: none;
+    background-color: transparent;
+}
+.drp4
+{
+    transform: translate(820px,-125px);
+    border: none;
+    background-color: transparent;
+}
+#fam
+{
+    transform: translate(2850%,-170px);
+  
+    border: none;
+    background-color: transparent;
+}
+#fam:hover
+{
+    color: rgb(148, 59, 59);
+}
+#fam1
+{
+    transform: translate(600%,-170px);
+    height: 12vh;
+    width: 190px;
+    border: none;
+    background-color: rgb(148, 59, 59);
+    color: aliceblue;
+    font-size: 20px;
+}
+#fam1:hover
+{
+    background-color: rgb(179, 65, 65);
+}
+.secound
+{
+    height: 150vh;
+    width: 100%;
+    background-color: rgb(228, 178, 235);
+    /* position: absolute; */
+}
+.secound h1
+{
+    text-align: center;
+    font-size: 80px;
+    padding-top: 150px;
+}
+.secound p
+{
+    text-align: center;
+    font-size: 22px;
+    padding-top: 20px;
+
+}
+.secound button
+{
+    transform: translate(580px,50px);
+    height: 8vh;
+    width: 170px;
+    font-size: 20px;
+    color: aliceblue;
+    border: none;
+    background-color: rgb(170, 49, 110);
+}
+#video
+{
+    width: 70%;
+   transform: translate(190px,-350px);
+
+}
+.op
+{
+    display: flex;
+}
+.bh
+{
+    width: 300px;
+    transform: translate(60%,-195%);
+}
+.bh1
+{
+    width: 300px;
+    transform: translate(80%,-195%);
+}
+.bh2
+{
+    width: 300px;
+    transform: translate(100%,-195%);
+
+}
+#soc
+{
+    height: 100vh;
+    width: 100%;
+    /* background-color: aqua; */
+    transform: translate(0px,-90px);
+    display: flex;
+}
+#pub
+{
+    width: 50%;
+    height: 80%;
+    /* background-color: rgb(60, 60, 114); */
+    transform: translate(40px);
+}
+#pub h1
+{
+    margin-left: 20px;
+    font-size: 50px;
+}
+#pub p
+{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+li
+{
+    list-style: none;
+    padding: 15px;
+}
+#pub1
+{
+    height: 80%;
+    width: 40%;
+    background-color: rgb(4, 32, 4);
+    transform: translate(110px);
+    
+}
+#pub button
+{
+    height: 50px;
+    width: 25%;
+    transform: translate(20px,-120px);
+    color: rgb(0, 3, 177);
+    background-color: transparent;
+    border: 1px solid blue;
+    font-size: 20px;
+    
+}
+.pic
+{
+    height: 50vh;
+    width: 90%;
+    background-image: url(a1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translate(55px,100px);
+    
+}
+.abc
+{
+    height: 150px;
+    width: 50%;
+    /* background-color: aqua; */
+    transform: translate(300px,-160px);
+}
+.qwe
+{
+    height: 50vh;
+    width: 25%;
+    background-image: url(Speed\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-size: 120px;
+    transform: translate(350px,-220px);
+
+}
+.qwf
+{
+    height: 50vh;
+    width: 50%;
+    background-image: url(Domain\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-size: 220px;
+    transform: translate(50px,-580px);
+
+}
+.qwg
+{
+    height: 30vh;
+    width: 30%;
+    background-image: url(traffic\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    transform: translate(30px,-620px);
+
+}
+.qw
+{
+    height: 30vh;
+    width: 30%;
+    background-image: url(backups\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    transform: translate(300px,-780px);
+}
+#farhan
+{
+    height: 120vh;
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+#farhan h1
+{
+    text-align: center;
+    font-size: 50px;
+}
+#farhan p
+{
+    text-align: center;
+    font-size: 22px;
+}
+.mn
+{
+    font-size: 25px;
+}
+.mn:hover
+{
+    color: rgb(161, 10, 93);
+}
+.tick
+{
+    height: 80%;
+    width:80% ;
+    background-image: url(Mockup-Tabs-1\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: 900px;
+    transform: translate(400px,-520px);
+}
+.pm
+{
+    transform: translate(0px,-600px);
+    font-size: 10px;
+}
+.ooo
+
+{
+    height: 50vh;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    padding:100px;
+    
+   
+}
+.ooo1
+{
+    height: 30vh;
+    width: 30%;
+    background-image: url(Advanced-Web-Creation\ \(1\).svg); 
+    background-repeat: no-repeat;
+    background-size: 160px;
+    transform: translate(-50px,-100px);
+   
+}
+.ooo2
+{
+    height: 30vh;
+    width: 30%;
+    background-image: url(Professional-Workflow\ \(2\).svg);
+    background-repeat: no-repeat;
+   background-size: 160px;
+   transform: translate(40px,-100px);
+    
+}.ooo3
+{
+    height: 30vh;
+    width: 30%;
+    background-image: url(Enhancing-WordPress\ \(2\).svg);
+    background-repeat: no-repeat;
+   background-size: 160px;
+   transform: translate(200px,-100px);
+    
+}
+.ooo1 h5
+{
+    transform: translate(-0px,170px);
+}
+.ooo1 p
+{
+    transform: translate(0px,170px);
+}
+.ooo2 h5
+{
+    transform: translate(-0px,170px);
+}
+.ooo2 p
+{
+    transform: translate(0px,170px);
+}
+.ooo3 h5
+{
+    transform: translate(-0px,170px);
+}
+.ooo3 p
+{
+    transform: translate(0px,170px);
+}
+#glass
+{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(155, 2, 79);
+}
+.glass1
+{
+    height: 70vh;
+    width: 50%;
+    background-image: url(mordi\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: 480px;
+    transform: translate(0px,50px);
+}
+.glass2 i
+{
+    transform: translate(500px,-300px);
+    font-size: 70px;
+}
+.glass2 p
+{
+    transform: translate(500px,-300px);
+    font-size: 30px;
+    color: aliceblue;
+}
+.glass2 h6
+{
+    transform: translate(500px,-300px);
+    font-size: 20px;
+    color: aliceblue;
+}
+#cop
+{
+    height: 120vh;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+}
+.jok
+{
+    height: 50%;
+    width: 50%;
+    /* background-color: blue; */
+}
+.jok h6
+{
+    padding-left: 50px;padding-top: 40px;
+
+}
+.jok h1
+{
+    padding-left: 50px;
+    font-size: 50px;
+}
+.jok p
+{
+    padding-left: 50px;
+    font-size: 20px;
+}
+.jok1
+{
+    height: 100%;
+    width: 50%;
+    /* background-color: blueviolet; */
+}
+.jok2
+{
+    height: 70%;
+    width: 40%;
+    background-image: url(resources-blog\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: translate(40px,50px);
+}
+.jok3
+{
+    height: 70%;
+    width: 40%;
+    background-image: url(Frame-10883110\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: translate(350px,-470px);
+}
+.jok2 div
+{
+    height: 40%;
+    /* background-color: brown; */
+    width: 100%;
+    transform: translate(0px,167px);
+}
+.jok2 h6
+{
+    font-size: 25px;
+}
+.jok2 button
+{
+    background-color: transparent;
+    border: none;
+    color: rgb(179, 15, 78);
+    font-size: 20px;
+}
+.jok3 div
+{
+    height: 40%;
+    /* background-color: brown; */
+    width: 100%;
+    transform: translate(0px,167px);
+}
+.jok3 h6
+{
+    font-size: 25px;
+}
+.jok3 button
+{
+    background-color: transparent;
+    border: none;
+    color: rgb(179, 15, 78);
+    font-size: 20px;
+}
+.jok4
+{
+    height: 70%;
+    width: 40%;
+    background-image: url(resources-tutorials\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: translate(40px,-620px);
+}
+.jok6
+{
+    height: 70%;
+    width: 40%;
+    background-image: url(resources-help\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: translate(350px,-1140px);
+}
+.jok5
+{
+   height: 40px;
+   width: 300px;
+}
+.jok5 h6
+{
+    transform: translate(0px,170px);
+    font-size: 25px;
+}
+.jok5 P
+{
+    transform: translate(0px,170px);
+    /* font-size: 25px; */
+}
+.jok5 button
+{
+    background-color: transparent;
+    border: none;
+    color: rgb(179, 15, 78);
+    font-size: 20px;
+    transform: translate(0px,170px);
+}
+.jok6 h6
+{
+    transform: translate(0px,170px);
+    font-size: 25px;
+}
+.jok6 P
+{
+    transform: translate(0px,170px);
+    /* font-size: 25px; */
+}
+.jok6 button
+{
+    background-color: transparent;
+    border: none;
+    color: rgb(179, 15, 78);
+    font-size: 20px;
+    transform: translate(0px,170px);
+}
+.lock
+{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(209, 196, 245);
+}
+.lock1
+{
+    height: 70vh;
+    width: 50%;
+    background-image: url(brandon\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: 500px;
+}
+.lock2
+{
+    height: 100%;
+    width: 60%;
+    transform: translate(500px,-350px);
+}
+.lock2 i
+{
+    font-size: 70px;
+}
+.lock2 p
+{
+    /* transform: translate(500px,-300px); */
+    font-size: 30px;
+    color: rgb(7, 7, 7);
+}
+.lock2 h6
+{
+    /* transform: translate(500px,-300px); */
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+.mom
+{
+    height: 100vh;
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+.mom h6
+{
+    transform: translate(40px,20px);
+}
+.mom h1
+{
+    transform: translate(30px,20px);
+    font-size: 50px;
+}
+.mom p
+{
+    transform: translate(30px,20px);
+    font-size: 20px;
+}
+.mom button
+{
+    border: solid 1px blue;
+    height: 50px;
+    width: 300px;
+    transform: translate(30px,50px);
+    color: blue;
+    font-size: 15px;
+}
+.jj
+{
+    background-image: url(community-1\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: 500px;
+    transform: translate(800px,-300px);
+    height: 100vh;
+    width: 50%;
+}
+.botal
+{
+    height: 50vh;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    padding: 40px; 
+    justify-content: space-evenly;
+}
+.botal1 h1
+{
+    font-size: 70px;
+}
+.botal2 h1
+{
+    font-size: 70px;
+}
+.botal3 h1
+{
+    font-size: 70px;
+}.botal4 h1
+{
+    font-size: 70px;
+}
+.botal1 p
+{
+    transform: translate(20px);
+
+}
+.botal2 p
+{
+    
+    transform: translate(20px);
+}
+.botal3 p
+{
+    
+    transform: translate(20px);
+}
+.cc
+{
+    height: 100vh;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+}
+.eye
+{
+    height: 100vh;
+    width: 50%;
+    /* background-color: brown; */
+    /* display: flex; */
+
+}
+.eye1
+{
+    height: 100vh;
+    width: 50%;
+    /* background-color: rgb(65, 26, 26);
+     */
+     background-image: url(User-Build-Photo\ \(1\).jpg);
+     background-repeat: no-repeat;
+     background-size: 150%;
+}
+.eye h1
+{
+    font-size: 50px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.youtube
+{
+    height: 50vh;
+    width: 60%;
+    background-color:rgb(201, 255, 232) ;
+    /* margin: 50px; */
+    transform: translate(40px,100px);
+
+}
+.youtube1
+{
+    height: 50vh;
+    width: 60%;
+    background-color:rgb(201,255,232) ;
+    margin-top: 50px;
+    transform: translate(520px,-255px);
+
+}
+.youtube h4{
+    padding: 40px;
+}
+
+.youtube p
+{
+    transform: translate(40px,-25px);
+}
+.youtube button{
+    border: none;
+    background-color: transparent;
+    transform: translate();
+    margin-left: 40px;
+}
+.youtube button:hover{
+    border-bottom: 1px solid black;
+}
+.eye1 h4
+{
+    transform: translate(-100px,240px);
+}
+.eye1 p
+{
+    transform: translate(-100px,260px);
+}
+.eye1 button
+{
+    transform: translate(-310px,80px);
+}
+.eye1 button{
+    border: none;
+    background-color: transparent;
+    transform: translate();
+    /* margin-left: 40px; */
+}
+.eye1 button:hover{
+    border-bottom: 1px solid black;
+}
+.namkeen
+{
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(248, 227, 250);
+}
+.namkeen h1
+{
+    font-size: 50px;
+    padding-left: 30px;
+    padding-top: 120px;
+}
+.namkeen p
+{
+    padding-left: 38px;
+    padding-top: 10px;
+}
+.namkeen button
+{
+    border: none;
+    background-color: transparent;
+    transform: translate(40px);
+    height: 9%;
+    width: 15%;
+    color: blue;
+    border: 2px solid blue;
+    font-size: 20px;
+}  
+.lol
+{
+    height: 100vh;
+    width: 50%;
+    background-image: url(Frame-10879024\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: translate(90%,-330px);
+}
+.ptani
+{
+    height: 140vh;
+    width: 100%;
+    background-color: rgb(136, 13, 75);
+    display: flex;
+}
+.kii ul{
+    color: rgb(245, 86, 232);
+    padding-top: 50px;
+    font-size: 25px;
+}
+.kii li
+{
+    color: aliceblue;
+    font-size: 15px;
+}
+.kii1 ul{
+    color: rgb(245, 86, 232);
+    padding-top: 50px;
+    font-size: 25px;
+}
+.kii1 li
+{
+    color: aliceblue;
+    font-size: 15px;
+}
+.kii1 .pol
+{
+    color: rgb(245, 86, 232);
+    padding-top: 50px;
+    font-size: 25px;
+}
+.kii2 ul{
+    color: rgb(245, 86, 232);
+    padding-top: 50px;
+    font-size: 25px;
+}
+.kii2 li
+{
+    color: aliceblue;
+    font-size: 15px;
+}
+.kii3 ul{
+    color: rgb(245, 86, 232);
+    padding-top: 50px;
+    font-size: 25px;
+}
+.kii3 li
+{
+    color: aliceblue;
+    font-size: 15px;
+}
+.hen
+{
+    height: 10vh;
+    width: 20%;
+    background-image: url(ele-logo.png);
+    background-repeat: no-repeat;
+    background-size: 170px;
+    transform: translate(0px,70px);
+}
+.hen p
+{
+    transform: translate(0px,50px);
+    color:aliceblue;
+}
+.hen2 h5
+{
+    color: rgb(245,86,232);
+    transform: translate(-250px,350px);
+}
+.hen2 input
+{
+    transform: translate(-250px,400px);
+    background-color: transparent;
+    border: 1px solid white;
+    height: 45px;
+}
+::placeholder
+{
+    color: aliceblue;
+}
+.dlt
+{
+    height: 45px;
+    width: 70px;
+    transform: translate(-67px,355px);
+    background-color: rgb(197, 48, 197);
+    border: solid white 1px;
+
+}
